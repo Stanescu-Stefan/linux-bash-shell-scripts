@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #provide one work/sentence as an argument to the script. if in that sentence will be an IP address, the script will try to find
-# if the IP address is reachable or not
+# if the IP address is reachable or not.
 
 #argument check
 if [ $# -ne 1 ]; then
