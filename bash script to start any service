@@ -2,6 +2,7 @@
 
 #we check if the user is root
 
+SERVICE=$1
 if [[ $(id -u) -eq 0 ]]
 then
 
