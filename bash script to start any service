@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+#we check if the user is root
+
+if [[ $(id -u) -eq 0 ]]
+then
+
+
+else
+
+fi
