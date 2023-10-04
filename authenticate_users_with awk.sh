@@ -17,7 +17,7 @@ echo ""
 
 #we are returning the stored hashed and salted password from /etc/shadow
 
-ORIGINAL_PASSWORD=$(sudo awk -F: -v pattern="$USER_NAME" '$0 ~ pattern { print $2 }' /etc/shadow)
+ORIGINAL_PASSWORD=$(sudo awk -F: -v pattern="$USER_NAME" '$0 ~ pattern { print $2 }' $FILE)
 
 
 #we can load the stored password into an array(-a flag)
